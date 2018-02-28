@@ -1,0 +1,19 @@
+{
+  "name": "cmdwebstatuscheck",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "debug": "node --nolazy --inspect-brk=9229 ./src/index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^1.0.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^9.3.0",
+    "@types/puppeteer": "^0.13.9"
+  }
+}
